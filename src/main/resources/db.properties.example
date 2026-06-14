@@ -1,0 +1,22 @@
+# 数据库配置文件
+# 复制此文件为 db.properties 并修改为你的实际参数
+
+db.driver=com.mysql.cj.jdbc.Driver
+db.url=jdbc:mysql://localhost:3306/face_attendance?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+db.username=你的MySQL用户名
+db.password=你的MySQL密码
+
+# Druid连接池配置
+db.initialSize=5
+db.maxActive=20
+db.minIdle=5
+db.maxWait=60000
+
+# 文件上传路径（人脸照片存储目录）
+upload.basePath=D:/face_system/uploads
+
+# 人脸识别配置
+face.cascadePath=D:/face_system/cascade/haarcascade_frontalface_alt.xml
+face.confidenceThreshold=70.0
+face.imageWidth=200
+face.imageHeight=200

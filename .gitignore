@@ -1,0 +1,26 @@
+# Maven
+target/
+*.zip
+*.tar.gz
+
+# IDE
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 敏感配置 (密码等)
+src/main/resources/db.properties
+
+# Temporary
+*.log
+*.tmp
+D:/face_system/
+D:/tomcat_output.log
+D:/jetty_output.log
